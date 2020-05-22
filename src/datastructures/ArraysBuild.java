@@ -29,7 +29,7 @@ public class ArraysBuild {
         count++;
     }
 
-    public void deleteElementatIndex(int index) {
+    public void removeAt(int index) {
         boolean deleted = false;
         if (index < 0 || index >= items.length) {
             System.out.println("index out of bounds");
@@ -47,6 +47,17 @@ public class ArraysBuild {
             }
             items = list;
         }
+    }
+    
+    public int indexOf(int num){
+       int ou =-1;
+        for(i=0; i<items.length; i++){
+            if(items[i]==num){
+               ou= i;
+               break;
+            } 
+        }
+return ou;
     }
 
 }

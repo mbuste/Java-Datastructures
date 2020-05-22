@@ -9,7 +9,8 @@ public class DataStructures {
         num.insertElement(30);
         num.insertElement(40);
         
-        num.deleteElementatIndex(1);
+//        num.removeAt(1);
+        System.out.println(num.indexOf(100));
         num.printArray();
     }
 }
