@@ -1,7 +1,7 @@
 package datastructures;
 
 public class DataStructures {
-
+    
     public static void main(String[] args) {
         ArraysBuild num = new ArraysBuild(3);
         num.insertElement(10);
@@ -12,5 +12,10 @@ public class DataStructures {
 //        num.removeAt(1);
         System.out.println(num.indexOf(100));
         num.printArray();
+
+        LinkedListBuild list = new LinkedListBuild(10);
+        list.addFirst(10);
+        list.addLast(20);
+
     }
 }
