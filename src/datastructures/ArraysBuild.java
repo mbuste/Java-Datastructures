@@ -34,7 +34,7 @@ public class ArraysBuild {
         if (index < 0 || index >= items.length) {
             System.out.println("index out of bounds");
         } else {
-            int[] list = new int[items.length-1];
+            int[] list = new int[items.length - 1];
             for (i = 0; i < list.length; i++) {
                 if (i == index) {
                     list[i] = items[i + 1];
@@ -48,16 +48,16 @@ public class ArraysBuild {
             items = list;
         }
     }
-    
-    public int indexOf(int num){
-       int ou =-1;
-        for(i=0; i<items.length; i++){
-            if(items[i]==num){
-               ou= i;
-               break;
-            } 
+
+    public int indexOf(int num) {
+        int ou = -1;
+        for (i = 0; i < items.length; i++) {
+            if (items[i] == num) {
+                ou = i;
+                break;
+            }
         }
-return ou;
+        return ou;
     }
 
 }
