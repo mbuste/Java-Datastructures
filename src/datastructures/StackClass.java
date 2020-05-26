@@ -16,10 +16,18 @@ public class StackClass {
         System.out.println(list.toString());
     }
     
-    public ArrayList pop(){
+    public ArrayList pop() throws Exception{
         list.remove(top-1);
         top--;
         return list;
+    }
+    
+    public boolean isEmpty(){
+        if(top==0){
+            return true;
+        }else{
+            return false;
+        }
     }
 
 }

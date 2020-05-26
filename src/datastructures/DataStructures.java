@@ -2,7 +2,7 @@ package datastructures;
 
 public class DataStructures {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 //        ArraysBuild num = new ArraysBuild(3);
 //        num.insertElement(10);
 //        num.insertElement(20);
@@ -16,10 +16,11 @@ public class DataStructures {
 //        list.addFirst(10);
 //        list.addLast(20);
         StackClass sc = new StackClass();
-        sc.push(10);
-        sc.push(20);
+//        sc.push(10);
+//        sc.push(20);
         sc.show();
-        System.err.println(sc.pop());
+        System.out.println(sc.isEmpty());
+        System.out.println(sc.pop());
 
     }
 }
