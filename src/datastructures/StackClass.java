@@ -29,5 +29,9 @@ public class StackClass {
             return false;
         }
     }
+    
+    public int peek(){
+        return (int) list.get(top-1);
+    }
 
 }

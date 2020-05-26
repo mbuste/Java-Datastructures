@@ -16,11 +16,12 @@ public class DataStructures {
 //        list.addFirst(10);
 //        list.addLast(20);
         StackClass sc = new StackClass();
-//        sc.push(10);
-//        sc.push(20);
-        sc.show();
-        System.out.println(sc.isEmpty());
-        System.out.println(sc.pop());
+        sc.push(10);
+        sc.push(20);
+        System.out.println(sc.peek());
+//        sc.show();
+//        System.out.println(sc.isEmpty());
+//        System.out.println(sc.pop());
 
     }
 }
