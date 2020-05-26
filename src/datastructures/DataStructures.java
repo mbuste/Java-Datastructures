@@ -19,6 +19,7 @@ public class DataStructures {
         sc.push(10);
         sc.push(20);
         sc.show();
+        System.err.println(sc.pop());
 
     }
 }

@@ -15,5 +15,11 @@ public class StackClass {
     public void show() {
         System.out.println(list.toString());
     }
+    
+    public ArrayList pop(){
+        list.remove(top-1);
+        top--;
+        return list;
+    }
 
 }
