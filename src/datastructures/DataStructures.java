@@ -25,6 +25,7 @@ public class DataStructures {
         QueueClass qc = new QueueClass();
         qc.insert(10);
         qc.insert(20);
+        System.out.println(qc.peek());
         qc.printQueue();
 
     }

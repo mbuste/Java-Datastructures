@@ -24,4 +24,8 @@ public class QueueClass {
     public void printQueue(){
         System.out.println(list.toString());
     }
+    
+    public int peek(){
+        return (int) list.get(0);
+    }
 }
