@@ -25,7 +25,12 @@ public class QueueClass {
         System.out.println(list.toString());
     }
     
-    public int peek(){
+    public Integer peek(){
+        if(list.isEmpty()){
+            return null;
+        }
         return (int) list.get(0);
     }
+    
+    
 }
